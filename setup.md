@@ -6,7 +6,7 @@ $ brew install maven # Mavenのインストール
 $ brew install node # Node.jsのインストール
 ```
 
-```
+```bash
 $ cd backend && mvn archetype:generate -DgroupId=com.example.todoapp -DartifactId=todoapp-backend -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 - mvn archetype:generate: Mavenを使用してプロジェクトを生成
@@ -14,7 +14,7 @@ $ cd backend && mvn archetype:generate -DgroupId=com.example.todoapp -DartifactI
   - DartifactId=todoapp-backend: プロジェクトの名前（アーティファクトID）を指定します。
   - DarchetypeArtifactId=maven-archetype-quickstart: 使用するアーキタイプ（テンプレート）を指定します。この場合、基本的なJavaプロジェクトのテンプレートを使用します。
   - DinteractiveMode=false: 対話モードを無効にし、すべての設定をコマンドラインで指定します。
-```
+```bash
 $ cd frontend && npx create-react-app todoapp-frontend
 ```
 - npx create-react-app todoapp-frontend: Create React Appを使用してReactプロジェクトを作成します。
