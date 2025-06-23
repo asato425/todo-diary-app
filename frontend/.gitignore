@@ -1,0 +1,9 @@
+# Node.js関連
+node_modules/
+npm-debug.log*
+
+# OS関連
+.DS_Store
+
+# Build関連
+build/
