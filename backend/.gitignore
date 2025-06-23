@@ -1,0 +1,10 @@
+# Maven関連
+target/
+*.log
+
+# IDE関連
+.idea/
+*.iml
+
+# OS関連
+.DS_Store
